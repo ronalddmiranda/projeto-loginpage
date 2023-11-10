@@ -53,13 +53,17 @@ input.dados::placeholder {
     margin-right: 20px;
 }
 
+div.msenha {
+    text-align: center;
+}
+
 .cenha {
     padding: 15px 0px;
 }
 
 a {
-    margin-left: 172px;
-    color: #0B132B;
+    float: right;
+    color: #000000;
 }
 
 #enviar {
@@ -85,6 +89,7 @@ a {
 }
 
 #rodape > a {
+    float: none;
     color: white;
     margin: 0px;
     font-style: none;
