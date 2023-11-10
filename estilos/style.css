@@ -21,34 +21,38 @@ main {
     left: 50%;
     top: 50%;
     transform: translate( -50%, -50% );
-    width: 90vw;
+    width: 400px;
+    height: 400px;
     background-color: #ECE5E8;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 h1 {
     color: rgb(84, 176, 174);
+    padding-top: 25px;
     font-size: 3em;
     font-variant: small-caps;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
 }
 
 .pcaixas {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-top: 30px;
 }
 
 input.dados {
     width: 100%;
-    height: 50px;
+    height: 35px;
     border: 2px solid rgb(214, 214, 214);
     outline: 0;
 }
 
 input.dados::placeholder {
     text-align: right;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #d8d8d8;
     margin-right: 20px;
 }
@@ -59,6 +63,7 @@ div.msenha {
 
 .cenha {
     padding: 15px 0px;
+    font-size: 0.8em;
 }
 
 a {
@@ -73,6 +78,7 @@ a {
     font-size: 1.5em;
     font-weight: bold;
     border: 5px solid #316564;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.361);
 }
 
 #enviar:hover {
@@ -82,10 +88,20 @@ a {
     color: white;
 }
 
+#crodape {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate( -50%, -90% );
+}
+
 #rodape {
     color: white;
-    padding-top: 88vh;
-    text-align: center;
+    font-size: 0.8em;
+}
+
+#rodape p {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
 }
 
 #rodape > a {
